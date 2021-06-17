@@ -18,6 +18,13 @@
             color: #fff;
 
         }
+        .flex-cols{
+            min-height: 10rem;
+            background-color: #ccc;
+        }
+        body{
+            margin-bottom: 5%;
+        }
     </style>
   </head>
   <body>
@@ -25,66 +32,123 @@
         <div class="container">
             <h3>Колонки олиноковой ширины</h3>
             <!-- col - занимает всю доступную ширину, а вот col-1 будет занимать именно 12 ячеек -->
-        <div class="row">
-             <div class="col">col</div>
-             <div class="col">col</div>
-             <div class="col">col</div>
-        </div>
-        <div class="row">
-            <div class="col-1">col-1</div>
-            <div class="col-1">col-1</div>
-            <div class="col-1">col-1</div>
-       </div>
-       <!-- ========================================================================================= -->
-       <h3 class="mt-5">установка ширины одного столбца</h3>
-       <div class="row">
-           <div class="col">side bar 1</div>
-           <div class="col-6"> content</div>
-           <div class="col">side bar 2</div>
-       </div>
-       <!-- ========================================================================================= -->
-       <h3 class="mt-5">Содержание переменной ширины</h3>
-       <div class="row">
-           <div class="col">side bar 1</div>
-           <div class="col-6"> content</div>
-           <div class="col-auto">side bar 2</div>
-       </div>
-        <!-- ========================================================================================= -->
-        <h3 class="mt-5">колонки одинаковой ширины в несколько строк</h3>
-        <div class="row">
-            <div class="col">col-1</div>
-            <div class="col">col-2</div>
-            <div class="w-100"></div>
-            <div class="col">col-3</div>
-            <div class="col">col-4</div>
-        </div>
-         <!-- ========================================================================================= -->
-         <h3 class="mt-5">BreakPoints складывание колонок по горизонтали</h3>  
-         <div class="row">
-            <div class="col-lg">SideBar1</div>
-            <div class="col-lg">Content</div>
-            <div class="col-lg">SideBar2</div>
-       </div> 
-        <!-- ========================================================================================= -->
-        <h3 class="mt-5">BreakPoints комбинирование классов</h3>  
-        <div class="row">
-           <div class="col-md-3 col-sm-4">SideBar1</div>
-           <div class="col-md-6 col-sm-8">Content</div>
-           <div class="col-md-3">SideBar2</div>
-      </div> 
-      <!-- ========================================================================================= -->
-      <h3 class="mt-5">BreakPoints переполнение ряда</h3>  
-      <div class="row">
-         <div class="col-md-3 col-sm-4">SideBar1</div>
-         <div class="col-md-6 col-sm-8">Content</div>
-         <div class="col-md-4">SideBar2</div>
-    </div> 
-    <h3 class="mt-5">сброс отступов</h3>  
-    <div class="row g-0">
-       <div class="col-md-3 col-sm-4">SideBar1</div>
-       <div class="col-md-6 col-sm-8">Content</div>
-       <div class="col-md-3">SideBar2</div>
-  </div> 
+                <div class="row">
+                    <div class="col">col</div>
+                    <div class="col">col</div>
+                    <div class="col">col</div>
+                </div>
+                <div class="row">
+                    <div class="col-1">col-1</div>
+                    <div class="col-1">col-1</div>
+                    <div class="col-1">col-1</div>
+                </div>
+            <!-- ========================================================================================= -->
+                <h3 class="mt-5">установка ширины одного столбца</h3>
+                <div class="row">
+                    <div class="col">side bar 1</div>
+                    <div class="col-6"> content</div>
+                    <div class="col">side bar 2</div>
+                </div>
+            <!-- ========================================================================================= -->
+                <h3 class="mt-5">Содержание переменной ширины</h3>
+                <div class="row">
+                    <div class="col">side bar 1</div>
+                    <div class="col-6"> content</div>
+                    <div class="col-auto">side bar 2</div>
+                </div>
+                <!-- ========================================================================================= -->
+                <h3 class="mt-5">колонки одинаковой ширины в несколько строк</h3>
+                <div class="row">
+                    <div class="col">col-1</div>
+                    <div class="col">col-2</div>
+                    <div class="w-100"></div>
+                    <div class="col">col-3</div>
+                    <div class="col">col-4</div>
+                </div>
+                <!-- ========================================================================================= -->
+                <h3 class="mt-5">BreakPoints складывание колонок по горизонтали</h3>  
+                <div class="row">
+                    <div class="col-lg">SideBar1</div>
+                    <div class="col-lg">Content</div>
+                    <div class="col-lg">SideBar2</div>
+                </div> 
+                <!-- ========================================================================================= -->
+                <h3 class="mt-5">BreakPoints комбинирование классов</h3>  
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">SideBar1</div>
+                    <div class="col-md-6 col-sm-8">Content</div>
+                    <div class="col-md-3">SideBar2</div>
+                </div> 
+            <!-- ========================================================================================= -->
+                <h3 class="mt-5">BreakPoints переполнение ряда</h3>  
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">SideBar1</div>
+                    <div class="col-md-6 col-sm-8">Content</div>
+                    <div class="col-md-4">SideBar2</div>
+                </div> 
+            <!-- ========================================================================================= -->
+                <h3 class="mt-5">сброс отступов</h3>  
+                <div class="row g-0">
+                    <div class="col-md-3 col-sm-4">SideBar1</div>
+                    <div class="col-md-6 col-sm-8">Content</div>
+                    <div class="col-md-3">SideBar2</div>
+                 </div> 
+            <!-- ========================================================================================= -->
+                <h3 class="mt-5"> выравнивание рядо по вертикали</h3>  
+                <div class="row flex-cols align-items-start">
+                    <div class="col">SideBar1</div>
+                    <div class="col">Content</div>
+                    <div class="col">SideBar2</div>
+                </div> 
+                <br>
+                <div class="row flex-cols align-items-center">
+                    <div class="col">SideBar1</div>
+                    <div class="col">Content</div>
+                    <div class="col">SideBar2</div>
+                </div> 
+                <br>
+                <div class="row flex-cols align-items-end">
+                    <div class="col">SideBar1</div>
+                    <div class="col">Content</div>
+                    <div class="col">SideBar2</div>
+                </div> 
+                <!-- ========================================================================================= -->
+                <h3 class="mt-5"> выравнивание колонок по вертикали</h3>  
+                <div class="row flex-cols align-items-start">
+                    <div class="col align-self-start">SideBar1</div>
+                    <div class="col align-self-end">Content</div>
+                    <div class="col align-self-center">SideBar2</div>
+                </div> 
+                 <!-- ========================================================================================= -->
+                 <h3 class="mt-5"> выравнивание по горизонтали</h3>  
+                 <div class="row justify-content-start">
+                     <div class="col-4">col 1</div>
+                     <div class="col-4">col 2</div>
+                 </div>
+                 <br>
+                 <div class="row justify-content-end">
+                    <div class="col-4">col 1</div>
+                    <div class="col-4">col 2</div>
+                </div>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col-4">col 1</div>
+                    <div class="col-4">col 2</div>
+                </div>
+                <br>
+                <div class="row justify-content-around">
+                    <div class="col-1">col 1</div>
+                    <div class="col-1">col 2</div>
+                    <div class="col-1">col 3</div>
+                    <div class="col-1">col 4</div>
+                </div>
+                <br>
+                <div class="row justify-content-between">
+                    <div class="col-1">col 1</div>
+                    <div class="col-1">col 2</div>
+                    <div class="col-1">col 3</div>
+                    <div class="col-1">col 4</div>
+                </div>
         </div>
         
 
